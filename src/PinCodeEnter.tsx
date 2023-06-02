@@ -2,7 +2,6 @@ import delay from './delay'
 import PinCode, { PinStatus } from './PinCode'
 import { PinResultStatus, noBiometricsConfig } from './utils'
 
-import AsyncStorage from '@react-native-community/async-storage'
 import * as React from 'react'
 import {
   StyleProp,
@@ -13,6 +12,7 @@ import {
 } from 'react-native'
 import * as Keychain from 'react-native-keychain'
 import TouchID from 'react-native-touch-id'
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 /**
  * Pin Code Enter PIN Page
