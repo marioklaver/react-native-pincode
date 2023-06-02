@@ -1,8 +1,9 @@
 # Webstorm
 #
 .idea
-dist
+
 # node.js
 #
 node_modules/
 
+dist/
